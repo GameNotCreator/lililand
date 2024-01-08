@@ -7,12 +7,22 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        title: ['Tsukimi Rounded', 'sans-serif'],
+        subtitle: ['MuseoModerno', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
       },
+      colors: {
+        'primary-color': '#0E3768',
+        'secondary-color': '#4C87CD',
+        'common-text': '#FFFFFF',
+      }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["winter", 'valentine', 'aqua'],
+    utils: true,
+    logs: false,
+  },
 }
