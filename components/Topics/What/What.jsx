@@ -8,7 +8,12 @@ const What = () => {
         <Image width={500} height={500} src={logofooter} alt="Logo Footer"/>
         <div>
           <h1 className="text-5xl font-bold">Que sommes-nous ?</h1>
-          <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+          <br/>
+          <h2 className="text-4xl">Le Club Interact Marsa Mind, qu'est-ce que c'est ?</h2>
+          <h4 className="text-2xl"><i>Bienvenue sur la page d'accueil du Club Interact Marsa Mind, une association à but non lucratif fondée le 17 septembre 2020 et parrainée par le Rotary Club La Marsa.</i></h4>
+          <p className="py-6">Le Rotary, une organisation bénévole mondiale créée par Paul Harris, parraine l'intégralité des clubs Interact. Notre mission principale est d'apporter notre aide à ceux qui sont dans le besoin à travers une variété d'initiatives communautaires et de projets bénévoles. Nos actions englobent diverses causes telles que les droits de l'enfant, les ressources pour les personnes dépourvues, les droits des femmes, et bien d'autres encore.</p>
+          <p className="py-6">Le Club Interact Marsa Mind est fondé sur des valeurs fondamentales telles que le leadership, l'intégrité, la camaraderie, la diversité et le service. En tant que club de service, tous nos membres s'engagent à servir la communauté et à participer activement à des projets humanitaires.</p>
+          <p className="py-6">Rejoignez-nous dans notre quête commune pour faire une différence significative dans le monde qui nous entoure. En explorant ce site, vous découvrirez davantage notre histoire, nos projets en cours et les différentes manières dont vous pouvez vous impliquer.</p>
         </div>
       </div>
     </div>
