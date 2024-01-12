@@ -10,7 +10,7 @@ const Navbar = () => {
                         <Image width={100} height={100} priority alt="Logo" src={process.env.LOGO} />
                     </div>
                 </div>
-                <Link className="btn btn-ghost text-xl" href={'/'}>Interact Club Marsa Mind</Link>
+                <Link className="btn btn-ghost text-l" href={'/'}>Interact Club Marsa Mind</Link>
             </div>
             <div className="navbar-end lg:flex hidden">
                 <Link className="btn btn-ghost" href={'/pages/'}>❓ Quoi ?</Link>
@@ -32,6 +32,7 @@ const Navbar = () => {
                         <li><Link className="btn btn-ghost" href={'/pages/how'}>🎬 Comment ?</Link></li>
                         <li><Link className="btn btn-ghost" href={'/pages/who'}>🧑‍🤝‍🧑 Qui ?</Link></li>
                         <li><Link className="btn btn-ghost" href={'/pages/when'}>🕙 Quand ?</Link></li>
+                        <li><Link className="btn btn-ghost" href={'/pages/utils/image'}>🖼️ Images</Link></li>
                         <li><Link className="btn btn-ghost" href={'/pages/utils/contact'}>✉️ Contact</Link></li>
                         <li><Link className="btn btn-ghost" href={'/pages/utils/don'}>❤️ Don</Link></li>
                     </ul>
