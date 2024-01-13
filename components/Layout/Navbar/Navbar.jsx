@@ -18,6 +18,7 @@ const Navbar = () => {
                 <Link className="btn btn-ghost" href={'/pages/how'}>🎬 Comment ?</Link>
                 <Link className="btn btn-ghost" href={'/pages/who'}>🧑‍🤝‍🧑 Qui ?</Link>
                 <Link className="btn btn-ghost" href={'/pages/when'}>🕙 Quand ?</Link>
+                <Link className="btn btn-ghost" href={'/pages/utils/image'}>🖼️ Images</Link>
                 <Link className="btn btn-ghost" href={'/pages/utils/contact'}>✉️ Contact</Link>
                 <Link className="btn btn-ghost" href={'/pages/utils/don'}>❤️ Don</Link>
             </div>
