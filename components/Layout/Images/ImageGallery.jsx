@@ -1,8 +1,8 @@
 'use client'
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ImageModal from './ImageModal';
 
-const imageContext = require.context('../../public/images', false, /\.(jpg|jpeg|png)$/);
+const imageContext = require.context('@public/images', false, /\.(jpg|jpeg|png)$/);
 const images = imageContext.keys().map((key, index) => ({
   id: index + 1,
   src: `/images${key.slice(1)}`,
