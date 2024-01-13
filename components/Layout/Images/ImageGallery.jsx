@@ -1,30 +1,15 @@
 'use client'
-import { useState, useEffect } from 'react';
-import fs from 'fs/promises';
-import path from 'path';
+import React, { useState } from 'react';
 import ImageModal from './ImageModal';
+
+const imageContext = require.context('../../public/images', false, /\.(jpg|jpeg|png)$/);
+const images = imageContext.keys().map((key, index) => ({
+  id: index + 1,
+  src: `/images${key.slice(1)}`,
+}));
 
 const ImageGallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
-  const [images, setImages] = useState([]);
-
-  useEffect(() => {
-    const fetchImages = async () => {
-      try {
-        const imagesPath = path.join(process.cwd(), 'public', 'images');
-        const files = await fs.readdir(imagesPath);
-        const imageList = files.map((file, index) => ({
-          id: index + 1,
-          src: `/images/${file}`,
-        }));
-        setImages(imageList);
-      } catch (error) {
-        console.error('Error reading images directory:', error);
-      }
-    };
-
-    fetchImages();
-  }, []);
 
   const handleClick = (image) => {
     setSelectedImage(image);
@@ -57,4 +42,3 @@ const ImageGallery = () => {
 };
 
 export default ImageGallery;
-
