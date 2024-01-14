@@ -1,0 +1,62 @@
+{
+    "roles": [
+      {
+        "mandataire": "Loukil Habib",
+        "image": "president.png",
+        "row": 1
+      },
+      {
+        "mandataire": "Triki Youssef",
+        "image": "chef_protocole.png",
+        "row": 2
+      },
+      {
+        "mandataire": "Kallel Feriel",
+        "image": "vice_presidente.png",
+        "row": 2
+      },
+      {
+        "mandataire": "Derouiche May",
+        "image": "CNIT.png",
+        "row": 3
+      },
+      {
+        "mandataire": "Abdelkefi Khalil",
+        "image": "secretaire_general.png",
+        "row": 3
+      },
+      {
+        "mandataire": "Bensalem Mahine",
+        "image": "tresoriere.png",
+        "row": 3
+      },
+      {
+        "mandataire": "Riahi Nour",
+        "image": "past_presidente.png",
+        "row": 3
+      }
+    ],
+    "rolelargie": [
+      {
+        "mandataire": "Hassen Mariem",
+        "image": "chef_comite_media.png"
+      },
+      {
+        "mandataire": "Mzoughi Lyna",
+        "image": "chef_comite_finance.png"
+      },
+      {
+        "mandataire": "Mansour Nesrine",
+        "image": "chef_comite_DRP.png"
+      },
+      {
+        "mandataire": "Derouiche Neil",
+        "image": "chef_comite_internationnal.png"
+      },
+      {
+        "mandataire": "Naji Maya",
+        "image": "chef_comite_interet_general.png"
+      }
+    ]
+  }
+  
