@@ -5,16 +5,9 @@ import Hierarchy from "./Hierarchy"
 const Who = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-      <br /><br />  
-      <br /><br />  
-      <br /><br />  
-
-        <Image width={500} height={500} src={logofooter} alt="Logo Footer"/>
-        <div>
-          <br /><br />  
-          <br /><br />  
-          <h1 className="text-5xl font-bold text-center">Qui sommes-nous ?</h1>
+      <div className="hero-content flex-col lg:flex-row-reverse">  
+        <div>   
+          <h1 className="mt-40 text-5xl font-bold text-center">Qui sommes-nous ?</h1>
           <br /><br />  
           <Hierarchy />
           <br /><br />  

@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
         </nav>
         <aside>
-          <p>Copyright © 2024 - All right reserved by Interact Club Marsa Mind </p>
+          <p>Copyright © 2024 - All right reserved by Interact Club Marsa Mind - Developed by <span><a href="https://www.instagram.com/hedifourati2/">Hedi Fourati</a></span> ❤️</p>
         </aside>
     </footer>
 

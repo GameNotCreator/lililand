@@ -38,23 +38,28 @@
     ],
     "rolelargie": [
       {
-        "mandataire": "Hassen Mariem",
+        "comite": "Comité communication",
+        "mandataire": "Chebaane Emna",
         "image": "chef_comite_media.png"
       },
       {
-        "mandataire": "Mzoughi Lyna",
+        "comite": "Comité finance",
+        "mandataire": "Chaabouni Salim",
         "image": "chef_comite_finance.png"
       },
       {
-        "mandataire": "Mansour Nesrine",
+        "comite": "Comité DRP",
+        "mandataire": "Chaabouni Salwa",
         "image": "chef_comite_DRP.png"
       },
       {
-        "mandataire": "Derouiche Neil",
+        "comite": "Comité international",
+        "mandataire": "Fourati Hedi",
         "image": "chef_comite_internationnal.png"
       },
       {
-        "mandataire": "Naji Maya",
+        "comite": "Comité interet général",
+        "mandataire": "Derouiche May",
         "image": "chef_comite_interet_general.png"
       }
     ]
