@@ -20,13 +20,13 @@ const ImageGallery = () => {
   };
 
   return (
-    <div className="flex flex-wrap justify-center">
+    <div className="mt-20 flex flex-wrap justify-center">
       {images.map((image) => (
         <img
           key={image.id}
           src={image.src}
           alt={`Image ${image.id}`}
-          className="w-full h-auto cursor-pointer"
+          className="w-1/3 h-auto cursor-pointer"
           onClick={() => handleClick(image)}
         />
       ))}
