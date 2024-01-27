@@ -8,7 +8,7 @@ const Home = () => {
             <div className="max-w-lg">
             <h1 className="text-5xl font-bold">Interact Club Marsa Mind</h1>
             <ul className="py-6 decoration-none">Nonprofit organization
-              <li>🔅 Parrainé par le club @rotarylamarsa</li>
+              <li>🔅 Parrainé par le club <Link href={'https://www.instagram.com/rotarylamarsa/'}>@rotarylamarsa</Link></li>
               <li>🔅 DISTRICT : 9010 </li>
               <li>🔅 Charte obtenue le 17/09/20</li>
             </ul>
