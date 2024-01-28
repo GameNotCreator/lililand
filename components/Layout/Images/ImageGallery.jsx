@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react';
 import ImageModal from './ImageModal';
-
+import ImageContainer from './ImageContainer';
 const imageContext = require.context('@public/images', false, /\.(jpg|jpeg|png)$/);
 const images = imageContext.keys().map((key, index) => ({
   id: index + 1,
@@ -22,13 +22,15 @@ const ImageGallery = () => {
   return (
     <div className="mt-20 flex flex-wrap justify-center">
       {images.map((image) => (
-        <img
+        <button
+        onClick={() => handleClick(image)}
+        ><ImageContainer
           key={image.id}
           src={image.src}
           alt={`Image ${image.id}`}
-          className="w-1/3 h-auto cursor-pointer"
-          onClick={() => handleClick(image)}
+          
         />
+        </button>
       ))}
 
       {selectedImage && (
