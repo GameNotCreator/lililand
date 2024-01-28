@@ -11,7 +11,7 @@ const Contact = () => {
           <h3 className="mb-5 font-bold">Facebook</h3>
           <button className="btn btn-primary"><Link href={'https://www.facebook.com/InteractClubMarsaMind'}>@InteractClubMarsaMind</Link></button>
           <h3 className="mb-5 mt-5 font-bold">Instagram</h3>
-          <button className="btn btn-primary"><Link href={'https://www.instagram.com/interactclubmarsamind/'}>@interactclubmarsamind</Link></button>
+          <button className="btn btn-primary"><Link href={'https://www.instagram.com/interact_club_marsa_mind/'}>@interact_club_marsa_mind</Link></button>
           <h3 className="mb-5 mt-5 font-bold">Mail</h3>
           <button className="btn btn-primary"><Link href={'mailto:interactmarsamind@gmail.com'}>interactmarsamind@gmail.com</Link></button>
         </div>
