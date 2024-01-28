@@ -20,7 +20,7 @@ const Why = () => {
           <li className="pb-4"> • Développement économique et local</li>
           <li className="pb-4"> • Environnement</li>
         </ul>
-        <i>Pour en savoir sur ces causes, cliquez <Link className='text-blue-500' href="https://www.rotary.org/fr/our-causes">ici</Link></i>
+        <i>Pour en savoir plus sur ces causes, cliquez <Link className='text-blue-500' href="https://www.rotary.org/fr/our-causes">ici</Link></i>
         <br/>
         <button className="mt-5 btn btn-primary btn-outline"><Link href={'how'}>Comment ?</Link></button>
       </div>
