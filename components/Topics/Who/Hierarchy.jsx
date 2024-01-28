@@ -43,7 +43,7 @@ const Hierarchy = () => {
       </div>
       <br /><br />
       <div>
-        <h2 className="text-2xl">Bureau Elargie</h2>
+        <h2 className="text-2xl">Bureau Elargi</h2>
         <br />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {data.rolelargie.map((role, index) => (
