@@ -2,10 +2,9 @@ import Image from "next/image"
 import logofooter from "@public/logofooter.png"
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-neutral footer-center text-neutral-content flex flex-col w-full">
+    <footer className="footer p-10 bg-cyan-500 footer-center text-neutral-content flex flex-col w-full">
         <aside>
             <Image width={300} height={300} src={logofooter} alt="Logo Footer"/>
-            <Image width={50} height={50} src='https://i.imgur.com/lwhLKim.png' alt="Logo Footer"/>
         </aside> 
         <nav>
             <header className="footer-title">Social</header> 

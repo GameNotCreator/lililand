@@ -1,14 +1,20 @@
 import '@styles/globals.css'
+import Footer from '@components/Layout/Footer/Footer'
+import Navbar from '@components/Layout/Navbar/Navbar'
 
 export const metadata = {
-  title: 'Interact Club Marsa Mind',
-  description: 'Organisation à but non lucratifm parrainé par le club @rotarylamarsa',
+  title: 'Lili Land La Marsa',
+  description: 'Parc d\'attractions pour enfants à La Marsa',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+      <Navbar />
+        {children}
+      <Footer />
+      </body>
     </html>
   )
 }
