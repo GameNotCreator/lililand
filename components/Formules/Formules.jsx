@@ -1,6 +1,6 @@
 import Image from "next/image"
 const Formules = () => {
-  const formules = ['/Formules/ecoles.png', '/Formules/anniversaires.png', '/Formules/entreprises.png ']
+  const formules = ['/Formules/ecoles.png', '/Formules/anniversaires.png', '/Formules/entreprises.png']
   return (
     <div className='bg-cyan-500'>
         <br /><br />
