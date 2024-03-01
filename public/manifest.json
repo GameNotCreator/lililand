@@ -1,0 +1,21 @@
+{
+    "id": "1",
+    "name": "Lili Land ",
+    "short_name": "Parc Lili land",
+    "description": "Parc d'attractions Lili Land à La Marsa.",
+    "icons": [
+       
+       
+        {
+          "src": "logofooter.png",
+          "sizes": "150x150"
+        }
+
+       
+      ],
+    "theme_color": "#ffffff",
+    "background_color": "#3367D6",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+}
