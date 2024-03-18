@@ -7,10 +7,14 @@ const Grid = () => {
   return (
     <div className='bg-cyan-500 items-center justify-center items-center'>
         <br /><br />
+        <h2 className="text-center text-4xl font-bold text-white p-5">Plan</h2>
+        <h3 className="text-center text-2xl font-bold text-white p-5">Observer nos attraction a travers notre plan</h3>
+        <center><Image className="justify-center items-center text-center" src='/planlili.jpg'  priority quality={100}  width={1200} height={400} alt="Plan" /></center>
+        <br /><br /> 
         <h2 className="text-center text-4xl font-bold text-white p-5">Tickets</h2>
         <h3 className="text-center text-2xl font-bold text-white p-5">Achetez vos tickets</h3>
         <center><Image className="justify-center items-center text-center" src='/tickets.png' width={400} height={400} alt="Attractions" /></center>
-        <br /><br /> 
+        <br /><br />
         <h2 className="text-center text-4xl font-bold text-white p-5" id="Attractions">Attractions</h2>
         <h3 className="text-center text-2xl font-bold text-white p-5">Découvrez nos attractions</h3>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">

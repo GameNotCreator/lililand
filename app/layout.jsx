@@ -30,6 +30,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logofooter.png" sizes='any'  />
+      </head>
       <body>
       <Navbar />
         {children}
