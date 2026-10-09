@@ -1,40 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lili Land
 
-## Getting Started
+Site vitrine de Lili Land, avec présentation des attractions, formules, partenaires et informations de contact.
 
-First, run the development server:
+**[Voir le site](https://lililand.vercel.app)**
+
+## Technologies
+
+Next.js 14, React 18, Tailwind CSS et daisyUI.
+
+## Développement local
 
 ```bash
+git clone https://github.com/GameNotCreator/lililand.git
+cd lililand
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrir [localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Commandes
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+| Commande | Rôle |
+| --- | --- |
+| `npm run dev` | Serveur de développement |
+| `npm run build` | Compilation de production |
+| `npm start` | Serveur de production après compilation |
+| `npm run lint` | Vérification du code |
 
-## Learn More
+## Structure
 
-To learn more about Next.js, take a look at the following resources:
+- `app/page.jsx` assemble les sections de la page d'accueil.
+- `components/` contient les sections Home, Attractions, Formules, Partenaire et Contact.
+- `public/` contient les ressources statiques.
+- `styles/` et `tailwind.config.js` définissent la présentation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# interact-club-marsa-mind
-# lililand
-# lililand
-# lililand
+Le déploiement référencé par le dépôt est hébergé sur Vercel. Les dépendances reflètent la version historique du projet ; les commandes ci-dessus correspondent aux scripts présents dans `package.json`.
