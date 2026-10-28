@@ -1,5 +1,7 @@
 # Lili Land
 
+**English overview:** Website for Lili Land, presenting attractions, packages, partners and contact information. Built with Next.js and React. The French documentation below describes the local setup and project structure.
+
 Site vitrine de Lili Land, avec présentation des attractions, formules, partenaires et informations de contact.
 
 **[Voir le site](https://lililand.vercel.app)**
