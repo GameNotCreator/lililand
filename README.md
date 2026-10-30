@@ -4,7 +4,7 @@
 
 Site vitrine de Lili Land, avec présentation des attractions, formules, partenaires et informations de contact.
 
-**[Voir le site](https://lililand.vercel.app)**
+**[Voir le site](https://lililand.tn)**
 
 ## Technologies
 
