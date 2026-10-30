@@ -8,9 +8,11 @@ Site vitrine de Lili Land, avec présentation des attractions, formules, partena
 
 ## Technologies
 
-Next.js 14, React 18, Tailwind CSS et daisyUI.
+Next.js 15.5.28, React 18, Tailwind CSS, daisyUI et next-pwa.
 
 ## Développement local
+
+Utiliser Node.js 24.x et npm. Aucune variable d’environnement ni base de données n’est nécessaire pour ce site vitrine.
 
 ```bash
 git clone https://github.com/GameNotCreator/lililand.git
@@ -37,4 +39,10 @@ Ouvrir [localhost:3000](http://localhost:3000).
 - `public/` contient les ressources statiques.
 - `styles/` et `tailwind.config.js` définissent la présentation.
 
-Le déploiement référencé par le dépôt est hébergé sur Vercel. Les dépendances reflètent la version historique du projet ; les commandes ci-dessus correspondent aux scripts présents dans `package.json`.
+Le site est une application Next.js avec l’App Router ; son point d’entrée est `app/page.jsx`. Sur Vercel, utiliser le préréglage **Next.js**, la racine du dépôt, `npm ci` et `npm run build`, sans répertoire de sortie personnalisé.
+
+## Ancienneté du projet
+
+La version Lili Land de ce dépôt commence avec le [commit du 1er mars 2024, heure suisse](https://github.com/GameNotCreator/lililand/commit/c3d4824436332e43cc99cb23a6077dbaed79e510). Les commits plus anciens appartiennent à une base de site réutilisée.
+
+La dernière évolution du contenu et de l’interface avant maintenance est le [commit du 18 mars 2024](https://github.com/GameNotCreator/lililand/commit/c30cc9deced729fd631c810b060c98cebd9d256a). Les changements de documentation, de compatibilité et de sécurité réalisés en octobre 2026 ne changent pas l’ancienneté fonctionnelle de cette version.

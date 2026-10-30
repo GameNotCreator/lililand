@@ -3,7 +3,7 @@ import Grid from "@components/Attractions/Grid"
 import Contact from "@components/Contact/Contact"
 import Formules from "@components/Formules/Formules"
 import Home from "@components/Home/Home"
-import Partenaire from "@components/Partenaire /Partenaire"
+import Partenaire from "@components/Partenaire/Partenaire"
 
 const Homepage = () => {
   return (

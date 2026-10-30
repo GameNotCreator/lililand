@@ -3,6 +3,7 @@ import Footer from '@components/Layout/Footer/Footer'
 import Navbar from '@components/Layout/Navbar/Navbar'
 
 export const metadata = {
+  metadataBase: new URL('https://lililand.tn'),
   manifest: '/manifest.json',
   title: 'Lili Land La Marsa',
   description: 'Parc d\'attractions Lili Land à La Marsa',
@@ -16,7 +17,7 @@ export const metadata = {
     siteName: 'Lili Land La Marsa',
     images: [
       {
-        url: '/logofooter',
+        url: '/logofooter.png',
         width: 1200,
         height: 630,
         alt: 'Image du parc Lili Land La Marsa',
@@ -29,7 +30,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <head>
         <link rel="icon" href="/logofooter.png" sizes='any'  />
       </head>
